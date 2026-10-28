@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Project proposal: sports turf, pickleball, café and games facility at Bazaltoli Gaon, Tinsukia, Assam">
+<title>Bazaltoli Turf &amp; Café Project</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+:root{
+  --bg:#F4F6F2; --surface:#FFFFFF; --ink:#16211B; --muted:#5B6A61; --line:#D8E0D9;
+  --accent:#1E6E47; --accent-soft:#E2EFE6; --court:#2E5C8C; --warn:#9A5B12; --warn-soft:#FBEFD9;
+  --good:#1E6E47; --bad:#A33A2C;
+  --sky:#DCE7EE; --ground:#C9D3C2;
+  --f-display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",Roboto,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#111814; --surface:#18221C; --ink:#E7EEE9; --muted:#9AAAA0; --line:#2B3830;
+  --accent:#5CC08B; --accent-soft:#1D3327; --court:#7FA9D6; --warn:#E3A857; --warn-soft:#33281A;
+  --good:#5CC08B; --bad:#E58373; --sky:#1B2630; --ground:#26302A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111814; --surface:#18221C; --ink:#E7EEE9; --muted:#9AAAA0; --line:#2B3830;
+  --accent:#5CC08B; --accent-soft:#1D3327; --court:#7FA9D6; --warn:#E3A857; --warn-soft:#33281A;
+  --good:#5CC08B; --bad:#E58373; --sky:#1B2630; --ground:#26302A; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px;display:flex;flex-direction:column;gap:36px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.1}
+h1{font-size:clamp(30px,5vw,46px);font-weight:700;letter-spacing:.01em}
+h2{font-size:26px;font-weight:600;margin-bottom:12px}
+h3{font-size:19px;font-weight:600}
+p{margin:0}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.lede{color:var(--muted);max-width:68ch;margin-top:8px}
+header{display:flex;flex-direction:column;gap:6px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.chip{font-size:13px;border:1px solid
